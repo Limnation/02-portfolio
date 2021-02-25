@@ -1,0 +1,211 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+/* Header */
+.heroSection {
+  background-image: url("../images/header/heroImage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  min-height: 600px;
+  padding: 0% 0% 0% 0%;
+}
+
+/* hero Text Name and position */
+.heroText {
+  position: absolute;
+  left: 0;
+  top: 21%;
+  width: 100%;
+  z-index: 0;
+}
+
+.heroText h1 {
+  font-size: 110px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #54565b;
+  text-transform: uppercase;
+}
+
+.heroText h3 {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 1% auto 0 auto;
+}
+
+/* Hero Social Icons */
+.heroSocialLinks {
+  position: absolute;
+  left: 0;
+  bottom: 8%;
+  width: 100%;
+  z-index: 0;
+}
+
+.heroSocialLinks img {
+  margin: auto 70px auto 70px;
+  width: 80px;
+  height: 70px;
+}
+
+/* Red/Tan Down Arrow */
+.downArrowRed {
+  position: absolute;
+  left: 0;
+  bottom: 3%;
+  width: 100%;
+  z-index: 1;
+}
+
+.downArrowTan {
+  position: absolute;
+  left: 0;
+  bottom: 3%;
+  width: 100%;
+  z-index: 0;
+}
+
+.downArrowRed img {
+  width: 62px;
+  height: 39px;
+  transition: transform 1.5s;
+}
+
+.downArrowRed img:hover {
+  transform: translate(0px, -10px);
+}
+
+.downArrowRed a:hover {
+  opacity: 1;
+  filter: alpha(opacity=100); /* IE8 and earlier */
+}
+
+/* About me Section */
+.aboutMe {
+  min-height: 860px;
+  background-color: #b73334;
+  background-image: url("../images/aboutme/fractals.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  min-height: 600px;
+  padding: 0% 0% 0% 0%;
+}
+
+.aboutMeTitle {
+  width: 100%;
+}
+
+.aboutMeTitle h1 {
+  font-size: 150px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  line-height: 98px;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 1210px;
+  margin: auto auto;
+}
+
+.aboutMeText {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  margin: 100px 0px;
+}
+
+/* Medium devices (Small Mobile phones, 400px to 599px) */
+@media only screen and (min-width: 400px) {
+}
+
+/* Medium devices (large Mobile phones, 600px to 767px) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (Ipad, 768px and 1023px) */
+@media only screen and (min-width: 768px) {
+  /* Header */
+  .heroSection {
+    background-image: url("../images/header/heroImage.png");
+    min-height: 700px;
+  }
+}
+
+/* Medium devices (Ipad Pro 1024px and 1223px) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Medium devices (laptops, 1224px and 1823px) */
+@media only screen and (min-width: 1224px) {
+  /* Header */
+  .heroSection {
+    background-image: url("../images/header/heroImage.png");
+    min-height: 700px;
+  }
+}
+
+/* Medium devices (Desktops, 1824px and up) */
+@media only screen and (min-width: 1824px) {
+  /* Header */
+  .heroSection {
+    background-image: url("../images/header/heroImage.png");
+    min-height: 700px;
+  }
+
+  /* hero Text Name and position */
+  .heroText {
+    top: 21%;
+  }
+
+  .heroText h1 {
+    font-size: 110px;
+  }
+
+  .heroText h3 {
+    font-size: 30px;
+    margin: 1% auto 0 auto;
+  }
+
+  /* Hero Social Icons */
+  .heroSocialLinks {
+    bottom: 10%;
+  }
+
+  .heroSocialLinks img {
+    margin: auto 70px auto 70px;
+    width: 80px;
+    height: 70px;
+  }
+}
+/* Medium devices (Desktops, 1920px and up) */
+@media only screen and (min-width: 1920px) {
+}

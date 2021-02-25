@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "AGENCYB";
+  src: url("../fonts/AGENCYB.ttf") format("truetype"),
+    url("AGENCYB.ttf") format("truetype");
+}
+@font-face {
+  font-family: "AGENCYR";
+  src: url("../fonts/AGENCYR.ttf") format("truetype"),
+    url("AGENCYR.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NickyLaatzJustLovely";
+  src: url("../fonts/NickyLaatzJustLovely.ttf") format("truetype"),
+    url("../fonts/NickyLaatzJustLovely.otf") format("opentype");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* footer */
+.footer {
+  background-color: #d4e6dc;
+  padding: 0px 3.5% 2px 3.5%;
+  vertical-align: middle;
+  font-family: "AGENCYB", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  line-height: 10px;
+  color: #8e8d8d;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #8e8d8d;
+}
+
+a:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* IE8 and earlier */
+}
+
+.footerSections {
+  display: inline-block;
+}
+
+#siteBy img {
+  width: 30px;
+  vertical-align: middle;
+}
+
+#copyrights {
+  width: 70%;
+}
+
+#siteBy {
+  width: 28%;
+  text-align: right;
+}
+
+/* Medium devices (large Mobile phones, 600px to 767px) */
+@media only screen and (min-width: 600px) {
+  /* Bottem Nav */
+  #bottomNavServices img {
+    width: 42px;
+    margin: 5px 2px 5px 2px;
+  }
+
+  /* footer */
+  .footer {
+    font-size: 14px;
+    line-height: 14px;
+    margin: -1% 0%;
+  }
+
+  #siteBy img {
+    width: 40px;
+  }
+}
+
+/* Medium devices (Ipad, 768px and 1023px) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Medium devices (Ipad Pro 1024px and 1223px) */
+@media only screen and (min-width: 1024px) {
+  /* footer */
+  .footer {
+    font-size: 19px;
+    line-height: 19px;
+    margin: -1% 0%;
+  }
+
+  #siteBy img {
+    width: 40px;
+  }
+}
+
+/* Medium devices (laptops, 1224px and 1823px) */
+@media only screen and (min-width: 1224px) {
+  /* footer */
+  .footer {
+    font-size: 20px;
+    line-height: 20px;
+    margin: -1% 0%;
+  }
+
+  #siteBy img {
+    width: 48px;
+  }
+}
+
+/* Medium devices (Desktops, 1824px and up) */
+@media only screen and (min-width: 1824px) {
+  li a {
+    font-size: 30px;
+    margin: 0px 60px 0px 60px;
+  }
+}
