@@ -70,67 +70,76 @@ a:hover {
   width: 80px;
   height: 70px;
 }
-
-/* Red/Tan Down Arrow */
-.downArrowRed {
-  position: absolute;
-  left: 0;
-  bottom: 3%;
+/* Sections Area (all) */
+.sectionArea {
+  height: 100%;
   width: 100%;
-  z-index: 1;
+  min-height: 600px;
+  padding: 0% 0% 0% 0%;
+  position: relative;
 }
 
-.downArrowTan {
+/* Section Titles 
+(same css for all Section h2 titles) */
+.sectionTitle {
+  width: 100%;
+}
+
+.sectionTitle h2 {
+  font-size: 150px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  line-height: 98px;
+  text-transform: uppercase;
+  width: 1210px;
+  margin: auto auto;
+}
+
+/* Down Arrows Nav (all) */
+.downArrowBG {
   position: absolute;
   left: 0;
   bottom: 3%;
   width: 100%;
+  text-align: center;
   z-index: 0;
 }
 
-.downArrowRed img {
+.downArrowFG {
+  position: absolute;
+  left: 0;
+  bottom: 3%;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.downArrowFG img {
   width: 62px;
   height: 39px;
   transition: transform 1.5s;
 }
 
-.downArrowRed img:hover {
+.downArrowFG img:hover {
   transform: translate(0px, -10px);
 }
 
-.downArrowRed a:hover {
+.downArrowFG a:hover {
   opacity: 1;
   filter: alpha(opacity=100); /* IE8 and earlier */
 }
 
 /* About me Section */
 .aboutMe {
-  min-height: 860px;
   background-color: #b73334;
   background-image: url("../images/aboutme/fractals.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  height: 100%;
-  width: 100%;
-  min-height: 600px;
-  padding: 0% 0% 0% 0%;
 }
 
-.aboutMeTitle {
-  width: 100%;
-}
-
-.aboutMeTitle h1 {
-  font-size: 150px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 800;
-  line-height: 98px;
+.aboutMeTitle h2 {
   color: #ffffff;
-  text-transform: uppercase;
-  width: 1210px;
-  margin: auto auto;
 }
 
 .aboutMeText {
@@ -141,6 +150,33 @@ a:hover {
   text-align: center;
   line-height: 40px;
   margin: 100px 0px;
+}
+
+/* Skills */
+.skills {
+  background-color: #f8efdb;
+}
+
+.skillsTitle h2 {
+  color: #b73334;
+}
+
+/* protfolio */
+.portfolio {
+  background-color: #e8af30;
+}
+
+.portfolioTitle h2 {
+  color: #f8efdb;
+}
+
+/* contact */
+.contact {
+  background-color: #8cbbbc;
+}
+
+.contactTitle h2 {
+  color: #e8af30;
 }
 
 /* Medium devices (Small Mobile phones, 400px to 599px) */
