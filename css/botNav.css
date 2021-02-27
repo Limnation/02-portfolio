@@ -1,303 +1,56 @@
 /* Bottem Nav */
 .bottomNav {
-  background-color: #d4e6dc;
+  background-color: #54565b;
+  width: 100%;
 }
 
 .BNMaxW {
-  max-width: 290px;
-  margin: auto;
-  padding: 30px 0px 50px 5%;
+  width: 1200px;
+  margin: 0px auto 0px auto;
+  padding: 60px 30px;
 }
 
-.BNcontactBody {
-  display: inline-block;
-  width: 195px;
-  margin: auto;
-  text-align: left;
-  vertical-align: top;
-  padding: 0px 0px 0px 10px;
+.BNMaxW h5 {
+  color: #7c7f81;
+  font-size: 21px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
 }
 
-.BNcontactBody img {
-  width: 30px;
-}
-
-.bottomNavSections {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.bottomNavSections p {
-  color: #8e8d8d;
-  font-family: "AGENCYR", sans-serif;
-  font-size: 15px;
-  text-transform: uppercase;
-}
-
-.bottomNavSections a {
-  color: #000000;
-  font-family: "AGENCYR", sans-serif;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-
-.BNcontactmargin1 {
-  margin: 20px 7px 0px 7px;
-}
-
-.BNcontactmargin {
-  margin: 6px 7px;
-}
-
-.BNcontacts p {
-  display: inline-block;
-  font-family: "AGENCYR", sans-serif;
-  font-size: 11px;
-  color: #000000;
-  margin: 0px 3px;
-  vertical-align: middle;
-  letter-spacing: 0.1em;
-}
-
-.BNcontacts a {
+.BNMaxW li a {
   text-decoration: none;
+  color: #ffffff;
+  font-size: 19px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 
-.BNcontacts img {
-  display: inline-block;
-  vertical-align: middle;
+.BNMaxW li {
+  padding: 15px 0px;
 }
 
 /* Medium devices (Small Mobile phones, 400px to 599px) */
 @media only screen and (min-width: 400px) {
   /* Bottem Nav */
-  .BNMaxW {
-    max-width: 400px;
-    margin: auto;
-    padding: 30px 0px 50px 10%;
-  }
-
-  .BNcontactBody {
-    display: inline-block;
-    width: 227px;
-    margin: auto;
-    text-align: left;
-    padding: 0px 0px 0px 10px;
-  }
-
-  .BNcontactBody img {
-    width: 30px;
-  }
-
-  .bottomNavSections {
-    display: inline-block;
-  }
-
-  .bottomNavSections p {
-    font-size: 18px;
-  }
-
-  .bottomNavSections a {
-    font-size: 18px;
-  }
-
-  .BNcontactmargin1 {
-    margin: 20px 20px 0px 20px;
-  }
-
-  .BNcontactmargin {
-    margin: 6px 20px;
-  }
-
-  .BNcontacts p {
-    display: inline-block;
-    font-size: 12px;
-    margin: 0px 10px;
-  }
 }
 
 /* Mobile devices (large Mobile phones, 600px to 767px) */
 @media only screen and (min-width: 600px) {
   /* Bottem Nav */
-  .BNMaxW {
-    max-width: 600px;
-    margin: auto;
-    padding: 30px 0px 50px 15%;
-  }
-
-  .BNcontactBody {
-    display: inline-block;
-    width: 260px;
-    margin: auto;
-    text-align: left;
-    padding: 0px 0px 0px 110px;
-  }
-
-  .BNcontactBody img {
-    width: 30px;
-  }
-
-  .bottomNavSections {
-    display: inline-block;
-  }
-
-  .bottomNavSections p {
-    font-size: 18px;
-  }
-
-  .bottomNavSections a {
-    font-size: 18px;
-  }
-
-  .BNcontactmargin1 {
-    margin: 20px 20px 0px 20px;
-  }
-
-  .BNcontactmargin {
-    margin: 6px 20px;
-  }
-
-  .BNcontacts p {
-    display: inline-block;
-    font-size: 12px;
-    margin: 0px 10px;
-  }
 }
 
 /* Medium devices (Ipad, 768px and 1023px) */
 @media only screen and (min-width: 768px) {
   /* Bottem Nav */
-  .BNMaxW {
-    max-width: 600px;
-    margin: auto;
-    padding: 50px 0px 50px 20px;
-  }
-
-  .BNcontactBody {
-    display: inline-block;
-    width: 310px;
-    margin: auto;
-    text-align: left;
-    padding: 0px 0px 0px 110px;
-  }
-
-  .BNcontactBody img {
-    width: 45px;
-  }
-
-  .bottomNavSections {
-    display: inline-block;
-  }
-
-  .bottomNavSections p {
-    font-size: 26px;
-  }
-
-  .bottomNavSections a {
-    font-size: 26px;
-  }
-
-  .BNcontactmargin1 {
-    margin: 30px 20px 0px 20px;
-  }
-
-  .BNcontactmargin {
-    margin: 6px 20px;
-  }
-
-  .BNcontacts p {
-    display: inline-block;
-    font-size: 19px;
-    margin: 0px 10px;
-  }
 }
 
 /* Medium devices (Ipad Pro 1024px and 1223px) */
 @media only screen and (min-width: 1024px) {
   /* Bottem Nav */
-  .BNMaxW {
-    max-width: 800px;
-    margin: auto;
-    padding: 50px 0px;
-  }
-
-  .BNcontactBody {
-    display: inline-block;
-    width: 310px;
-    margin: auto;
-    text-align: left;
-    padding: 0px 0px 0px 37%;
-  }
-
-  .bottomNavSections {
-    display: inline-block;
-  }
-
-  .bottomNavSections p {
-    font-size: 26px;
-  }
-
-  .bottomNavSections a {
-    font-size: 26px;
-  }
-
-  .BNcontactmargin1 {
-    margin: 30px 20px 0px 20px;
-  }
-
-  .BNcontactmargin {
-    margin: 6px 20px;
-  }
-
-  .BNcontacts p {
-    display: inline-block;
-    font-size: 19px;
-    margin: 0px 10px;
-  }
 }
 
 /* laptops devices (laptops, 1224px and 1823px) */
 @media only screen and (min-width: 1224px) {
-  /* Bottem Nav */
-  .BNMaxW {
-    max-width: 1100px;
-    margin: auto;
-    padding: 50px 0px;
-  }
-
-  .BNcontactBody {
-    display: inline-block;
-    width: 310px;
-    margin: auto;
-    text-align: left;
-    padding: 0px 0px 0px 37%;
-  }
-
-  .bottomNavSections {
-    display: inline-block;
-  }
-
-  .bottomNavSections p {
-    font-size: 26px;
-  }
-
-  .bottomNavSections a {
-    font-size: 26px;
-  }
-
-  .BNcontactmargin1 {
-    margin: 30px 20px 0px 20px;
-  }
-
-  .BNcontactmargin {
-    margin: 6px 20px;
-  }
-
-  .BNcontacts p {
-    display: inline-block;
-    font-size: 19px;
-    margin: 0px 10px;
-  }
 }
 
 /* Desktops (Desktops, 1824px and up) */

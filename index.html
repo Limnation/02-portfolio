@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="css/topNav.css" />
     <link rel="stylesheet" type="text/css" href="css/homepage.css" />
     <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="css/botNav.css" />
     <script src="./js/mobileNaveBar.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
@@ -31,7 +32,7 @@
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <header class="heroSection">
+    <header class="heroSection" id="intro">
       <!-- Top Navigation -->
       <nav class="topnav" id="myTopnav">
         <!-- Image in Mobile nav version -->
@@ -235,28 +236,19 @@
 
     <nav class="bottomNav" id="bottomNav">
       <div class="BNMaxW">
-        <div class="bottomNavSections" id="bottomNavSiteMap">
-          <p>Site Map</p>
-          <p><a href="#">Intro</a></p>
-          <p><a href="#aboutme">about me</a></p>
-          <p><a href="#skills">skills</a></p>
-          <p><a href="#portfolio">portfolio</a></p>
-          <p><a href="#contact">contact</a></p>
-        </div>
+        <h5>Site Map</h5>
+        <ul>
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#aboutMe">about me</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
       </div>
     </nav>
 
     <footer class="footer">
-      <div class="fMaxW">
-        <div class="footerSections" id="copyrights">
-          <p>&#64;2021 Scott Allen Erwin</p>
-        </div>
-        <div class="footerSections" id="siteBy">
-          <a href="https://www.paintclouddesign.com/"
-            >site by <img src="images/navigation/top/navLogo.png"
-          /></a>
-        </div>
-      </div>
+          <p>&#xa9;2021 Scott Allen Erwin</p>
     </footer>
   </body>
 </html>
