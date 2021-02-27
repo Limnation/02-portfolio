@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="css/footer.css" />
     <link rel="stylesheet" type="text/css" href="css/botNav.css" />
     <script src="./js/mobileNaveBar.js"></script>
+    <script src="./js/hoverBackground.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
@@ -39,17 +40,17 @@
         <a href="index.html" class="active">
           <img src="images/navigation/top/navLogo.png" alt="Scott Allen Erwin"/>
         </a>
-        <a class="navBar" href="index.html#portfolio">portfolio</a>
-        <a class="navBar" href="index.html#aboutMe">about me</a>
-        <a class="navBar" href="index.html#contact">contact</a>
+        <a class="navBar" id="#portfolioNav" href="index.html#portfolio" onmouseover="onHover();" onmouseout="offHover();" >portfolio</a>
+        <a class="navBar" href="index.html#aboutMe" onmouseover="onHover();" onmouseout="offHover();">about me</a>
+        <a class="navBar" href="index.html#contact" onmouseover="onHover();" onmouseout="offHover();">contact</a>
         <!-- Hamberger Moble nav icon -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+        <a href="javascript:void(0);" class="icon"
           >&#9776;</a>
       </nav>
 
       <!-- Hero Text -->
-      <div class="heroText">
-        <h1>Scott Allen Erwin</h1>
+      <div class="heroText" id="heroText">
+        <h1 >Scott Allen Erwin</h1>
         <h3>Senior Web Specialist</h3>
       </div>
 
@@ -149,19 +150,17 @@
 
       <div class="companies">
         <div class="portfolioImages">
-          <img onclick="myFunction()" class="portfolio-item1 portfolio-items"src="./images/protfolio/amg.png" alt="amg">
-          <img onclick="myFunction()" class="portfolio-item2 portfolio-items" src="./images/protfolio/cig.png" alt="Cigarette Racing Team">
-          <img onclick="myFunction()" class="portfolio-item3 portfolio-items" src="./images/protfolio/ehrmann.png" alt="ehrmann">
-          <img onclick="myFunction()" class="portfolio-item4 portfolio-items" src="./images/protfolio/agv.png" alt="agv">
-          <img onclick="myFunction()" class="portfolio-item5 portfolio-items" src="./images/protfolio/oml.png" alt="OML">
-          <img onclick="myFunction()" class="portfolio-item6 portfolio-items" src="./images/protfolio/eci.png" alt="ECI">
-          <img onclick="myFunction()" class="portfolio-item7 portfolio-items" src="./images/protfolio/sdc.png" alt="Salone Di Capelli">
+          <img onclick="onclickPtItem1();" onmouseover="onHoverPtItem1On();" onmouseout="onHoverPtItem1Off();" class="portfolio-item1 portfolio-items"src="./images/protfolio/amg.png" alt="amg">
+          <img onclick="onclickPtItem2();" onmouseover="onHoverPtItem2On();" onmouseout="onHoverPtItem2Off();" class="portfolio-item2 portfolio-items" src="./images/protfolio/cig.png" alt="Cigarette Racing Team">
+          <img onclick="onclickPtItem3();" onmouseover="onHoverPtItem3On();" onmouseout="onHoverPtItem3Off();" class="portfolio-item3 portfolio-items" src="./images/protfolio/ehrmann.png" alt="ehrmann">
+          <img onclick="onclickPtItem4();" onmouseover="onHoverPtItem4On();" onmouseout="onHoverPtItem4Off();" class="portfolio-item4 portfolio-items" src="./images/protfolio/agv.png" alt="agv">
+          <img onclick="onclickPtItem5();" onmouseover="onHoverPtItem5On();" onmouseout="onHoverPtItem5Off();" class="portfolio-item5 portfolio-items" src="./images/protfolio/oml.png" alt="OML">
+          <img onclick="onclickPtItem6();" onmouseover="onHoverPtItem6On();" onmouseout="onHoverPtItem6Off();" class="portfolio-item6 portfolio-items" src="./images/protfolio/eci.png" alt="ECI">
+          <img onclick="onclickPtItem7();" onmouseover="onHoverPtItem7On();" onmouseout="onHoverPtItem7Off();" class="portfolio-item7 portfolio-items" src="./images/protfolio/sdc.png" alt="Salone Di Capelli">
         </div>
       </div>
 
-      <div class="devices">
-        <img src="./images/protfolio/devices.png">
-      </div>
+      <div class="devices" id="devices"></div>
 
       <!-- Blue Down Arrow -->
       <nav>
