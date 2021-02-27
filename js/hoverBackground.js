@@ -1,12 +1,12 @@
 // navBar background image changing
 function onHover() {
-  document.getElementById("intro").style.backgroundImage = "url('../images/header/heroImage2.png')";
+  document.getElementById("intro").style.backgroundImage = "url('./images/header/heroImage2.png')";
 
   document.getElementById("heroText").style.display = "none";
 }
 
 function offHover() {
-  document.getElementById("intro").style.backgroundImage = "url('../images/header/heroImage.png')";
+  document.getElementById("intro").style.backgroundImage = "url('./images/header/heroImage.png')";
 
   document.getElementById("heroText").style.display = "inline-block";
 }
