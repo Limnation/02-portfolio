@@ -70,11 +70,12 @@ a:hover {
   width: 80px;
   height: 70px;
 }
+
 /* Sections Area (all) */
 .sectionArea {
   height: 100%;
   width: 100%;
-  min-height: 600px;
+  min-height: 565px;
   padding: 0% 0% 0% 0%;
   position: relative;
 }
@@ -86,12 +87,12 @@ a:hover {
 }
 
 .sectionTitle h2 {
-  font-size: 150px;
+  font-size: 55px;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  line-height: 98px;
+  line-height: 36px;
   text-transform: uppercase;
-  width: 1210px;
+  width: 100%;
   margin: auto auto;
 }
 
@@ -312,12 +313,89 @@ a:hover {
   color: #e8af30;
 }
 
+.contactBody {
+  width: 320px;
+  margin: 15% auto 0px auto;
+  text-align: left;
+}
+
+.contactmargin1 {
+  margin: 0px 20px;
+}
+
+.contactmargin {
+  margin: 20px 20px;
+}
+
+.contacts p {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin: 0px 10px;
+  vertical-align: middle;
+}
+
+.contacts a {
+  text-decoration: none;
+}
+
+.contacts img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 15%;
+}
+
+.contactMagnoliaImage {
+  display: none;
+  position: absolute;
+  left: 0px;
+  bottom: -3%;
+  text-align: left;
+}
+
 /* Medium devices (Small Mobile phones, 400px to 599px) */
 @media only screen and (min-width: 400px) {
+  /* Sections Area (all) */
+  .sectionArea {
+    min-height: 700px;
+  }
+
+  /* Section Titles 
+  (same css for all Section h2 titles) */
+  .sectionTitle h2 {
+    font-size: 71px;
+    line-height: 46px;
+  }
 }
 
 /* Medium devices (large Mobile phones, 600px to 767px) */
 @media only screen and (min-width: 600px) {
+  /* Section Titles 
+  (same css for all Section h2 titles) */
+  .sectionTitle h2 {
+    font-size: 100px;
+    line-height: 64px;
+  }
+
+  /* contact */
+  .contactBody {
+    width: 430px;
+    margin: 5% auto 0px auto;
+  }
+
+  .contactmargin1 {
+    margin: 0px 20px;
+  }
+
+  .contactmargin {
+    margin: 20px 20px;
+  }
+
+  .contacts p {
+    font-size: 22px;
+    margin: 0px 10px;
+  }
 }
 
 /* Medium devices (Ipad, 768px and 1023px) */
@@ -327,10 +405,67 @@ a:hover {
     background-image: url("../images/header/heroImage.png");
     min-height: 700px;
   }
+
+  /* Section Titles 
+  (same css for all Section h2 titles) */
+  .sectionTitle h2 {
+    font-size: 130px;
+    line-height: 86px;
+    width: 900px;
+  }
+
+  /* contact */
+  .contactBody {
+    width: 470px;
+  }
+
+  .contactmargin1 {
+    margin: 0px 20px;
+  }
+
+  .contactmargin {
+    margin: 20px 20px;
+  }
+
+  .contacts p {
+    font-size: 25px;
+    margin: 0px 10px;
+  }
 }
 
 /* Medium devices (Ipad Pro 1024px and 1223px) */
 @media only screen and (min-width: 1024px) {
+  /* Section Titles 
+  (same css for all Section h2 titles) */
+  .sectionTitle h2 {
+    font-size: 145px;
+    line-height: 93px;
+  }
+
+  /* contact */
+  .contactBody {
+    width: 600px;
+  }
+
+  .contactmargin1 {
+    margin: 0px 20px;
+  }
+
+  .contactmargin {
+    margin: 20px 20px;
+  }
+
+  .contacts p {
+    font-size: 30px;
+    margin: 0px 10px;
+  }
+
+  .contactMagnoliaImage {
+    position: absolute;
+    left: 0px;
+    bottom: -3%;
+    text-align: left;
+  }
 }
 
 /* Medium devices (laptops, 1224px and 1823px) */
@@ -339,6 +474,15 @@ a:hover {
   .heroSection {
     background-image: url("../images/header/heroImage.png");
     min-height: 700px;
+  }
+
+  /* Section Titles 
+  (same css for all Section h2 titles) */
+  .sectionTitle h2 {
+    font-size: 150px;
+    font-weight: 800;
+    line-height: 98px;
+    width: 1210px;
   }
 
   /* Portfolio */
