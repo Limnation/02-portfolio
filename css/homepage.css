@@ -145,13 +145,13 @@ a:hover {
 }
 
 .aboutMeText {
-  font-size: 25px;
+  font-size: 13px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: #ffffff;
   text-align: center;
-  line-height: 40px;
-  margin: 100px 0px;
+  line-height: 25px;
+  margin: 50px 0px;
 }
 
 /* Skills */
@@ -163,32 +163,30 @@ a:hover {
   color: #b73334;
 }
 
-/*.skillImag1 {
-  width: 100vw;
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid red;
-}
-*/
-
 .skillImag1 {
   grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
   display: grid;
   grid-gap: 0px;
-  width: 730px;
+  width: 100%;
   margin: 40px auto 0px auto;
 }
 
+.skill-items {
+  width: 100%;
+  height: 100%;
+}
+
 .skill-item1 {
-  grid-area: 1 / 2 / span 1 / span 2;
+  grid-area: 1 / 1 / span 1 / span 2;
 }
 
 .skill-item2 {
-  grid-area: 1 / 4 / span 1 / span 2;
+  grid-area: 1 / 3 / span 1 / span 2;
 }
 
 .skill-item3 {
-  grid-area: 1 / 6 / span 1 / span 2;
+  grid-area: 1 / 5 / span 1 / span 2;
 }
 
 .skill-item4 {
@@ -204,17 +202,17 @@ a:hover {
 }
 
 .skill-item7 {
-  grid-area: 2 / 7 / span 1 / span 2;
+  grid-area: 3 / 1 / span 1 / span 2;
 }
 
 .skill-item8 {
   grid-area: 3 / 3 / span 1 / span 2;
-  margin: -40px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 .skill-item9 {
   grid-area: 3 / 5 / span 1 / span 2;
-  margin: -40px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 /* protfolio */
@@ -381,6 +379,13 @@ a:hover {
     min-height: 700px;
   }
 
+  /* About me Section */
+  .aboutMeText {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 50px 0px;
+  }
+
   /* Section Titles 
   (same css for all Section h2 titles) */
   .sectionTitle h2 {
@@ -417,11 +422,69 @@ a:hover {
     height: 50px;
   }
 
+  /* About me Section */
+  .aboutMe {
+    min-height: 740px;
+  }
+  .aboutMeText {
+    font-size: 25px;
+    line-height: 40px;
+    margin: 100px 0px;
+  }
+
   /* Section Titles 
   (same css for all Section h2 titles) */
   .sectionTitle h2 {
     font-size: 100px;
     line-height: 64px;
+  }
+
+  /* skills */
+  .skillImag1 {
+    grid-template-columns: 72px 72px 72px 72px 72px 72px 72px 72px;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+    display: grid;
+    grid-gap: 0px;
+    width: 580px;
+    margin: 40px auto 0px auto;
+  }
+
+  .skill-item1 {
+    grid-area: 1 / 2 / span 1 / span 2;
+  }
+
+  .skill-item2 {
+    grid-area: 1 / 4 / span 1 / span 2;
+  }
+
+  .skill-item3 {
+    grid-area: 1 / 6 / span 1 / span 2;
+  }
+
+  .skill-item4 {
+    grid-area: 2 / 1 / span 1 / span 2;
+  }
+
+  .skill-item5 {
+    grid-area: 2 / 3 / span 1 / span 2;
+  }
+
+  .skill-item6 {
+    grid-area: 2 / 5 / span 1 / span 2;
+  }
+
+  .skill-item7 {
+    grid-area: 2 / 7 / span 1 / span 2;
+  }
+
+  .skill-item8 {
+    grid-area: 3 / 3 / span 1 / span 2;
+    margin: -40px 0px 0px 0px;
+  }
+
+  .skill-item9 {
+    grid-area: 3 / 5 / span 1 / span 2;
+    margin: -40px 0px 0px 0px;
   }
 
   /* contact */
@@ -449,7 +512,7 @@ a:hover {
   /* Header */
   .heroSection {
     background-image: url("../images/header/heroImage.png");
-    min-height: 700px;
+    min-height: 750px;
   }
 
   /* hero Text Name and position */
@@ -484,6 +547,24 @@ a:hover {
     font-size: 130px;
     line-height: 86px;
     width: 900px;
+  }
+
+  /* skills */
+  .skills {
+    min-height: 850px;
+  }
+  .skillImag1 {
+    grid-template-columns: 90px 90px 90px 90px 90px 90px 90px 90px;
+    grid-template-rows: 250px 250px 250px 250px 250px 250px 250px;
+    display: grid;
+    grid-gap: 0px;
+    width: 720px;
+    margin: 40px auto 0px auto;
+  }
+
+  .skill-items {
+    width: 180px;
+    height: 250px;
   }
 
   /* contact */
@@ -541,6 +622,10 @@ a:hover {
   }
 
   /* contact */
+  .contact {
+    min-height: 830px;
+  }
+
   .contactBody {
     width: 600px;
   }
@@ -571,7 +656,7 @@ a:hover {
   /* Header */
   .heroSection {
     background-image: url("../images/header/heroImage.png");
-    min-height: 700px;
+    min-height: 750px;
   }
 
   /* hero Text Name and position */
@@ -644,7 +729,7 @@ a:hover {
   /* Header */
   .heroSection {
     background-image: url("../images/header/heroImage.png");
-    min-height: 700px;
+    min-height: 750px;
   }
 
   /* hero Text Name and position */
@@ -674,4 +759,7 @@ a:hover {
 }
 /* Medium devices (Desktops, 1920px and up) */
 @media only screen and (min-width: 1920px) {
+  .heroSection {
+    min-height: 800px;
+  }
 }
