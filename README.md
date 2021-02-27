@@ -2,7 +2,7 @@
 
 ## Myreadme with description
 
-This main things I am trying to accomplish with this site to make portfolio with a modern/abstract fractal design adding some fun personality. I also wanted wanted to make it Responsive with metaquerys while also pushing my boundies by tieing in things I have already learned with new information I have learned from the class while attempting to finish in the time constraint.
+This main things I am trying to accomplish with this site is to make a portfolio with a modern/abstract fractal design adding some fun personality. I also wanted wanted to make it Responsive with metaquerys while also pushing my boundries by tieing in things I have already learned with new information I have learned from the class while attempting to finish in the time constraint.
 
 ## screenshot
 
@@ -12,7 +12,7 @@ This main things I am trying to accomplish with this site to make portfolio with
 ![screenshot4](./pdf/4.jpg)
 ![screenshot5](./pdf/5.jpg)
 ![screenshot6](./pdf/6.jpg)
-(note: this does not show any of the animations to view some of the criteria)
+(note: this does not show any of the hover events to view some of the criteria)
 
 # link to deployed application
 
