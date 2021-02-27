@@ -6,12 +6,12 @@ This main things I am trying to accomplish with this site is to make a portfolio
 
 ## screenshot
 
-![screenshot1](pdf/1.jpg)
-![screenshot2](pdf/2.jpg)
-![screenshot3](pdf/3.jpg)
-![screenshot4](pdf/4.jpg)
-![screenshot5](pdf/5.jpg)
-![screenshot6](pdf/6.jpg)
+![screenshot1](./pdf/1.JPG)
+![screenshot2](./pdf/2.JPG)
+![screenshot3](./pdf/3.JPG)
+![screenshot4](./pdf/4.JPG)
+![screenshot5](./pdf/5.JPG)
+![screenshot6](./pdf/6.JPG)
 (note: this does not show any of the hover events to view some of the criteria)
 
 # link to deployed application
