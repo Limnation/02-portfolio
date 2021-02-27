@@ -26,7 +26,7 @@ a:hover {
   text-align: center;
   height: 100%;
   width: 100%;
-  min-height: 600px;
+  min-height: 560px;
   padding: 0% 0% 0% 0%;
 }
 
@@ -34,13 +34,13 @@ a:hover {
 .heroText {
   position: absolute;
   left: 0;
-  top: 21%;
+  top: 22%;
   width: 100%;
   z-index: 0;
 }
 
 .heroText h1 {
-  font-size: 110px;
+  font-size: 40px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: #54565b;
@@ -48,27 +48,28 @@ a:hover {
 }
 
 .heroText h3 {
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: #000000;
   text-transform: uppercase;
-  margin: 1% auto 0 auto;
+  margin: 6% auto 0 auto;
 }
 
 /* Hero Social Icons */
 .heroSocialLinks {
   position: absolute;
   left: 0;
-  bottom: 8%;
+  bottom: 13%;
   width: 100%;
   z-index: 0;
 }
 
 .heroSocialLinks img {
-  margin: auto 70px auto 70px;
-  width: 80px;
-  height: 70px;
+  display: none;
+  margin: auto 15px auto 15px;
+  width: 50px;
+  height: 40px;
 }
 
 /* Sections Area (all) */
@@ -346,16 +347,35 @@ a:hover {
   width: 15%;
 }
 
-.contactMagnoliaImage {
-  display: none;
-  position: absolute;
-  left: 0px;
-  bottom: -3%;
-  text-align: left;
-}
-
 /* Medium devices (Small Mobile phones, 400px to 599px) */
 @media only screen and (min-width: 400px) {
+  /* hero Text Name and position */
+  .heroText {
+    position: absolute;
+    top: 22%;
+  }
+
+  .heroText h1 {
+    font-size: 50px;
+  }
+
+  .heroText h3 {
+    font-size: 25px;
+    margin: 5% auto 0 auto;
+  }
+
+  /* Hero Social Icons */
+  .heroSocialLinks {
+    bottom: 13%;
+  }
+
+  .heroSocialLinks img {
+    display: inline-block;
+    margin: auto 15px auto 15px;
+    width: 55px;
+    height: 45px;
+  }
+
   /* Sections Area (all) */
   .sectionArea {
     min-height: 700px;
@@ -371,6 +391,32 @@ a:hover {
 
 /* Medium devices (large Mobile phones, 600px to 767px) */
 @media only screen and (min-width: 600px) {
+  /* hero Text Name and position */
+  .heroText {
+    position: absolute;
+    top: 22%;
+  }
+
+  .heroText h1 {
+    font-size: 50px;
+  }
+
+  .heroText h3 {
+    font-size: 25px;
+    margin: 5% auto 0 auto;
+  }
+
+  /* Hero Social Icons */
+  .heroSocialLinks {
+    bottom: 12%;
+  }
+
+  .heroSocialLinks img {
+    margin: auto 40px auto 40px;
+    width: 60px;
+    height: 50px;
+  }
+
   /* Section Titles 
   (same css for all Section h2 titles) */
   .sectionTitle h2 {
@@ -406,6 +452,32 @@ a:hover {
     min-height: 700px;
   }
 
+  /* hero Text Name and position */
+  .heroText {
+    position: absolute;
+    top: 21%;
+  }
+
+  .heroText h1 {
+    font-size: 90px;
+  }
+
+  .heroText h3 {
+    font-size: 30px;
+    margin: 2% auto 0 auto;
+  }
+
+  /* Hero Social Icons */
+  .heroSocialLinks {
+    bottom: 12%;
+  }
+
+  .heroSocialLinks img {
+    margin: auto 40px auto 40px;
+    width: 60px;
+    height: 50px;
+  }
+
   /* Section Titles 
   (same css for all Section h2 titles) */
   .sectionTitle h2 {
@@ -435,6 +507,32 @@ a:hover {
 
 /* Medium devices (Ipad Pro 1024px and 1223px) */
 @media only screen and (min-width: 1024px) {
+  /* hero Text Name and position */
+  .heroText {
+    position: absolute;
+    top: 21%;
+  }
+
+  .heroText h1 {
+    font-size: 90px;
+  }
+
+  .heroText h3 {
+    font-size: 30px;
+    margin: 2% auto 0 auto;
+  }
+
+  /* Hero Social Icons */
+  .heroSocialLinks {
+    bottom: 8%;
+  }
+
+  .heroSocialLinks img {
+    margin: auto 70px auto 70px;
+    width: 80px;
+    height: 70px;
+  }
+
   /* Section Titles 
   (same css for all Section h2 titles) */
   .sectionTitle h2 {
@@ -474,6 +572,32 @@ a:hover {
   .heroSection {
     background-image: url("../images/header/heroImage.png");
     min-height: 700px;
+  }
+
+  /* hero Text Name and position */
+  .heroText {
+    position: absolute;
+    top: 21%;
+  }
+
+  .heroText h1 {
+    font-size: 110px;
+  }
+
+  .heroText h3 {
+    font-size: 30px;
+    margin: 1% auto 0 auto;
+  }
+
+  /* Hero Social Icons */
+  .heroSocialLinks {
+    bottom: 8%;
+  }
+
+  .heroSocialLinks img {
+    margin: auto 70px auto 70px;
+    width: 80px;
+    height: 70px;
   }
 
   /* Section Titles 
